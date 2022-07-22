@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="color.h" />
+    <ClInclude Include="hittable.h" />
+    <ClInclude Include="hittable_list.h" />
+    <ClInclude Include="ray.h" />
+    <ClInclude Include="rtweekend.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stb_image_write.h" />
+    <ClInclude Include="vec3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,20 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\color.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\hittable.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\hittable_list.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\ray.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\rtweekend.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\sphere.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\stb_image.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\stb_image_write.h" />
-    <ClInclude Include="..\..\..\..\Desktop\raytracer\vec3.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\raytracer\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
